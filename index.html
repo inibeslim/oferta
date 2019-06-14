@@ -22,6 +22,40 @@
     $.getScript('scripts/script_load.js');
     });
     </script>
+	    
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2108588032535155');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2108588032535155&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<script> 
+  setTimeout(function() {
+    console.log('Pixel Disparado BPPV3Min');
+fbq('track', 'INIBPV2Min');
+}, 120000);
+
+	$( document ).ready(function() {
+
+	  $(".kit").click(function(){
+		console.log('Pixel Disparado AddToCart');
+		fbq('track', 'AddToCart');
+	    });
+
+	});
+</script>
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -110,7 +144,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <div class="cta">
                         <a href="https://inibe.appmax.com.br/one-checkout/ocmdf/1697" rel="nofollow noopener"
-                           class="botao primario" id="kit-3">
+                           class="botao primario" id="kit-3-unidades">
                             COMPRAR AGORA
                         </a>
                     </div>
@@ -156,7 +190,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <div class="cta">
                         <a href="https://inibe.appmax.com.br/one-checkout/ocmdf/1698" rel="noopener nofollow"
-                           class="botao brilho primario" id="kit-5">
+                           class="botao brilho primario" id="kit-5-unidades">
                             COMPRAR AGORA
                         </a>
                     </div>
@@ -198,7 +232,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <div class="cta">
                         <a href="https://inibe.appmax.com.br/one-checkout/ocmdf/1696" rel="noopener nofollow"
-                           class="botao primario" id="kit-1">
+                           class="botao primario" id="kit-1-unidade">
                             COMPRAR AGORA
                         </a>
                     </div>
