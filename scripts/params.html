@@ -1,0 +1,101 @@
+	<script>
+	//  start
+	$( document ).ready(function() {
+		
+	console.log(window.location.href);
+	// func params
+	var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+	};
+
+	// if src is empty 
+	if(getUrlParameter('src') === undefined) { 
+
+		var url_params_src = '';
+		var url_params_utms = '';
+		var url_params_utmm = '';
+		var url_params_utmc = '';
+		var url_params_utmctt = '';
+
+	} else {
+	// if src is set
+		
+		var full_src = getUrlParameter('src');
+		
+		var src_split = full_src.split('|');
+
+		// get params
+		var url_params_src = full_src;
+		var url_params_utms = src_split[0];
+		var url_params_utmm = src_split[1];
+		var url_params_utmc = src_split[2];
+		var url_params_utmctt = src_split[3];
+
+	}
+
+
+	// var params
+	var all_params = '';
+
+
+	// check params
+	if(url_params_src != ""){
+		var all_params = all_params + '?src=' + url_params_src;
+	} 
+
+	if(url_params_utms != ""){
+		var all_params = all_params + '?utm_source=' + url_params_utms;
+	}
+
+	if(url_params_utmm != ""){
+		var all_params = all_params + '?utm_medium=' + url_params_utmm;
+	}
+
+	if(url_params_utmc != ""){
+		var all_params = all_params + '?utm_campaign=' + url_params_utmc;
+	}
+
+	if(url_params_utmctt != ""){
+		var all_params = all_params + '?utm_content=' + url_params_utmctt;
+	}
+
+	if(all_params == ''){ var all_params = '?src=indefinido'; }
+
+	
+
+
+		// change url kits
+
+	 	var href_a = $('#kit-1-unidade').attr('href');
+	    $('#kit-1-unidade').attr('href', href_a + all_params);
+
+	    var href_b = $('#kit-3-unidades').attr('href');
+	    $('#kit-3-unidades').attr('href', href_b + all_params);
+
+	    var href_c = $('#kit-5-unidades').attr('href');
+	    $('#kit-5-unidades').attr('href', href_c + all_params);
+
+	  
+
+	    // offer for exit
+
+	    var offer_y = $('#offer_y').attr('href');
+	    $('#offer_y').attr('href', offer_y + all_params);
+
+	    var offer_n = $('#offer_n').attr('href');
+	    $('#offer_n').attr('href', offer_n + all_params);
+
+
+	    });
+	</script>
