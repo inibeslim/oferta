@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="342px" viewBox="0 0 512 342" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>bandeira-brazil</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bandeira-brazil" fill-rule="nonzero">
+            <rect id="Rectangle-path" fill="#6DA544" x="0" y="0.331" width="512" height="341.337"></rect>
+            <polygon id="Shape" fill="#FFDA44" points="256 47.8349531 423.144048 170.994 256 294.153047 88.8559523 170.994"></polygon>
+            <circle id="Oval" fill="#F0F0F0" cx="256" cy="170.994" r="70.3754789"></circle>
+            <g id="Group" transform="translate(185.000000, 100.000000)" fill="#0052B4">
+                <path d="M35.3178889,66.0950556 C23.0822222,66.0950556 11.2747778,67.9567778 0.159277778,71.4086667 C0.651472222,109.844222 31.9469444,140.855083 70.4986944,140.855083 C94.3368333,140.855083 115.391528,128.988889 128.118083,110.852111 C106.346639,83.5934167 72.8395556,66.0950556 35.3178889,66.0950556 Z" id="Shape"></path>
+                <path d="M139.557361,83.9733333 C140.404667,79.6075556 140.862917,75.1046944 140.862917,70.4921667 C140.862917,31.6323056 109.359861,0.12925 70.5,0.12925 C41.5036111,0.12925 16.6131944,17.6733056 5.83975,42.7203889 C15.3611667,40.749 25.2207222,39.7084722 35.3178889,39.7084722 C76.187,39.7097778 113.157722,56.6963611 139.557361,83.9733333 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
